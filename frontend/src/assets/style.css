@@ -1,0 +1,184 @@
+/* Horus Heresy RPG Theme */
+
+body {
+  background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?fit=crop&w=1400&q=80') no-repeat center center fixed;
+  background-size: cover;
+  color: #e2d8c3;
+  font-family: 'Cinzel', serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background: rgba(30, 30, 30, 0.95);
+  color: #c0a96a;
+  padding: 1em 2em;
+  box-shadow: 0 4px 12px #000;
+  font-size: 1.1em;
+}
+
+nav button {
+  background: #181512;
+  color: #c0a96a;
+  border: 1px solid #c0a96a;
+  margin-right: 1em;
+  padding: 0.5em 1em;
+  font-family: inherit;
+  font-size: 1em;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+nav button:hover {
+  background: #c0a96a;
+  color: #181512;
+}
+
+h1, h2, h3 {
+  font-family: 'Cinzel', serif;
+  text-shadow: 2px 2px 6px #000;
+}
+
+.quest-navigator {
+  background: rgba(35, 28, 22, 0.95);
+  border: 2px solid #c0a96a;
+  border-radius: 12px;
+  padding: 1em;
+  margin: 2em 0;
+  box-shadow: 0 2px 8px #000;
+}
+
+.quest-navigator ul {
+  list-style: none;
+  padding: 0;
+}
+
+.quest-navigator li {
+  margin-bottom: 0.5em;
+}
+
+.quest-navigator li.active button {
+  background: #c0a96a;
+  color: #181512;
+  font-weight: bold;
+}
+
+.quest-viewer {
+  background: rgba(35, 28, 22, 0.98);
+  border: 2px solid #a00;
+  border-radius: 12px;
+  padding: 2em;
+  margin: 2em 0;
+  box-shadow: 0 2px 12px #400;
+}
+
+.quest-viewer img {
+  width: 100%;
+  max-width: 400px;
+  border: 2px solid #a00;
+  border-radius: 8px;
+  margin-bottom: 1em;
+  box-shadow: 0 2px 8px #000;
+}
+
+.quest-viewer button {
+  background: #a00;
+  color: #e2d8c3;
+  border: none;
+  padding: 0.6em 1.2em;
+  margin: 0.5em 0.5em 0 0;
+  border-radius: 4px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.quest-viewer button:hover {
+  background: #c0a96a;
+  color: #a00;
+}
+
+.character-sheet {
+  background: rgba(20, 16, 12, 0.93);
+  border: 2px solid #c0a96a;
+  border-radius: 12px;
+  padding: 1.5em;
+  margin: 2em 0;
+  box-shadow: 0 2px 8px #000;
+}
+
+.character-sheet h2 {
+  color: #c0a96a;
+}
+
+.character-sheet ul {
+  list-style: none;
+  padding: 0;
+}
+
+.image-gallery {
+  background: rgba(30, 24, 18, 0.95);
+  padding: 1em;
+  margin: 1em 0;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px #000;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  justify-content: center;
+}
+
+.image-gallery img {
+  border: 2px solid #c0a96a;
+  border-radius: 8px;
+  max-width: 200px;
+  max-height: 160px;
+  object-fit: cover;
+  box-shadow: 0 2px 8px #000;
+}
+
+form {
+  background: rgba(25, 20, 15, 0.95);
+  border: 2px solid #a00;
+  border-radius: 12px;
+  padding: 2em;
+  margin: 2em 0;
+  box-shadow: 0 2px 8px #400;
+}
+
+form input, form button {
+  display: block;
+  width: 90%;
+  margin: 1em auto;
+  padding: 0.7em;
+  border-radius: 6px;
+  border: 1px solid #c0a96a;
+  background: #181512;
+  color: #e2d8c3;
+  font-size: 1em;
+}
+
+form button {
+  background: #a00;
+  color: #e2d8c3;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+form button:hover {
+  background: #c0a96a;
+  color: #a00;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: #181512;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #a00;
+  border-radius: 8px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Cinzel:700|Cinzel:400');

@@ -1,0 +1,42 @@
+HH30krpg/
+├── README.md
+├── backend/
+│   ├── package.json
+│   ├── server.js
+│   ├── utils/
+│   │   └── db.js
+│   ├── models/
+│   │   ├── User.js
+│   │   ├── Quest.js
+│   │   ├── NPC.js
+│   │   └── Item.js
+│   ├── controllers/
+│   │   ├── questController.js
+│   │   ├── userController.js
+│   │   ├── npcController.js
+│   │   ├── itemController.js
+│   │   └── imageController.js
+│   ├── routes/
+│   │   ├── quests.js
+│   │   ├── users.js
+│   │   ├── npcs.js
+│   │   ├── items.js
+│   │   └── images.js
+│   ├── scraper/
+│   │   └── scrape_legion_images.py
+├── frontend/
+│   ├── package.json
+│   ├── src/
+│   │   ├── App.js
+│   │   ├── assets/
+│   │   │   └── style.css
+│   │   ├── components/
+│   │   │   ├── QuestNavigator.js
+│   │   │   ├── QuestViewer.js
+│   │   │   ├── CharacterSheet.js
+│   │   │   └── ImageGallery.js
+│   │   ├── pages/
+│   │   │   ├── Home.js
+│   │   │   ├── Login.js
+│   │   │   ├── Register.js
+│   │   │   └── Game.js
