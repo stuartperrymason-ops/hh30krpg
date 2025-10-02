@@ -1,0 +1,82 @@
+[
+  {
+    "title": "Compliance of Sixty-Three Nineteen",
+    "arc": "Horus Rising",
+    "description": "Lead the Luna Wolves to victory on Sixty-Three Nineteen.",
+    "objectives": [
+      "Secure the city gates.",
+      "Defeat the rebel leader.",
+      "Choose to show mercy or exact judgment."
+    ],
+    "choices": [
+      {
+        "option": "Show Mercy",
+        "result": "Gain trust of the populace.",
+        "nextQuestId": null,
+        "rewardItemIds": []
+      },
+      {
+        "option": "Exact Judgment",
+        "result": "Instill fear and order.",
+        "nextQuestId": null,
+        "rewardItemIds": []
+      }
+    ],
+    "imageUrl": "https://warhammerart.com/luna-wolves.jpg",
+    "requiredLevel": 1,
+    "npcIds": []
+  },
+  {
+    "title": "Corruption on Davin",
+    "arc": "False Gods",
+    "description": "Investigate the mysterious plague and Erebus's rituals.",
+    "objectives": [
+      "Explore the Temple.",
+      "Uncover Erebus's plot.",
+      "Resist or succumb to Chaos."
+    ],
+    "choices": [
+      {
+        "option": "Resist Chaos",
+        "result": "Remain loyal to the Emperor.",
+        "nextQuestId": null,
+        "rewardItemIds": []
+      },
+      {
+        "option": "Succumb to Chaos",
+        "result": "Fall under Horus's influence.",
+        "nextQuestId": null,
+        "rewardItemIds": []
+      }
+    ],
+    "imageUrl": "https://warhammerart.com/davin-temple.jpg",
+    "requiredLevel": 2,
+    "npcIds": []
+  },
+  {
+    "title": "Istvaan III Betrayal",
+    "arc": "Galaxy in Flames",
+    "description": "Survive the virus bombing and choose sides.",
+    "objectives": [
+      "Escape the bombardment.",
+      "Choose: join loyalists or traitors."
+    ],
+    "choices": [
+      {
+        "option": "Join Loyalists",
+        "result": "Fight with Garviel Loken.",
+        "nextQuestId": null,
+        "rewardItemIds": ["itemId_power_sword"]
+      },
+      {
+        "option": "Join Traitors",
+        "result": "Aid Horus' forces.",
+        "nextQuestId": null,
+        "rewardItemIds": ["itemId_chainaxe"]
+      }
+    ],
+    "imageUrl": "https://warhammerart.com/istvaan.jpg",
+    "requiredLevel": 3,
+    "npcIds": ["npcId_loken", "npcId_horus"]
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "_id": "itemId_power_sword",
+    "name": "Power Sword",
+    "type": "weapon",
+    "description": "A relic blade crackling with energy, favored by loyalists.",
+    "imageUrl": "https://warhammerart.com/power-sword.jpg",
+    "stats": {
+      "damage": 25,
+      "defense": 0,
+      "bonus": "Extra damage to traitors"
+    }
+  },
+  {
+    "_id": "itemId_chainaxe",
+    "name": "Chainaxe",
+    "type": "weapon",
+    "description": "Brutal chainblade used by traitor marines.",
+    "imageUrl": "https://warhammerart.com/chainaxe.jpg",
+    "stats": {
+      "damage": 30,
+      "defense": 0,
+      "bonus": "Extra damage to loyalists"
+    }
+  },
+  {
+    "_id": "itemId_mkiv_armor",
+    "name": "MKIV Power Armor",
+    "type": "armor",
+    "description": "Iconic armor of the Legiones Astartes.",
+    "imageUrl": "https://warhammerart.com/mkiv-armor.jpg",
+    "stats": {
+      "damage": 0,
+      "defense": 20,
+      "bonus": "Resist virus bombings"
+    }
+  }
+]
